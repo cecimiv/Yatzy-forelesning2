@@ -15,7 +15,6 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-    //det som gjør at prosjektet er portabelt fra denne til en annen maskin
 
     <build>
         <plugins>
