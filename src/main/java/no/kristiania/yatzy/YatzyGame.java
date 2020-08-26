@@ -4,11 +4,23 @@ public class YatzyGame {
     public int score(String category, int[] dice) {
         int result = 5;
         for (int die : dice) {
-            if(die == 1){
-                result += 1;
+            if(category.equals("ONES")){
+                if(die == 1){
+                    result += 1;
+            }
+            else if(category.equals("TWOS")){
+                if(die == 2){
+                    result += 2;
+                    }
+
+                }else if(category.equals("THREES")){
+                if(die == 3){
+                    result += 3;
+                    }
+                }
             }
         }
 
-        return 5;
+        return result;
     }
 }
